@@ -1,14 +1,14 @@
-#Installing the Docker client on Windows Subsystem for Linux (Ubuntu)
+# Installing the Docker client on Windows Subsystem for Linux (Ubuntu)
 
 <img src="images/dockerimages.png" width="600" alt="Image of a Ubuntu Bash Terminal highlighting Docker images">
 
-##Something to understand before you start
+## Something to understand before you start
 
 
 Docker does not run WSL, Docker for Windows has to be installed on your machine first. At the end of this document you will have a Docker client running on Linux (WSL) sending commands to your Docker Engine daemon installed on Windows.
 
 
-##Prerequisites
+## Prerequisites
 
 
 * <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">Ubuntu Subsystem</a>
@@ -18,7 +18,7 @@ Once Docker for Windows has installed, make sure to expose the daemon on Windows
 
 <img src="images/dockergeneral.png" width="600" alt="Image of the Docker general user interface of settings. General settings is highlighted with expose daemon selected">
 
-##Installation
+## Installation
 
 
 1 - Update the apt package index:
@@ -65,7 +65,7 @@ $ sudo add-apt-repository \
    stable"
 ```
 
-#####Now you can install Docker Community Addition
+##### Now you can install Docker Community Addition
 
 6 - Update the apt package index again
 
